@@ -17,6 +17,11 @@ export default function NavBar():JSX.Element {
               Home
             </NavLink>
           </li>
+           <li className={style.listElement}>
+            <NavLink to="/sandwich" className={style.link}>
+              Sandwitch
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
